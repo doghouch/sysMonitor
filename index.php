@@ -418,9 +418,9 @@
          $("#ipv4-rsp").load("data/connectivity4.php");
          
          $( "#ipv6" ).click(function() {
-           $("#ipv6-rsp").load("data/connectivity6.php");
+           $("#ipv6-rsp").load("data/global.php?act=connectivity4");
          });
          
-         $("#ipv6-rsp").load("data/connectivity6.php");
+         $("#ipv6-rsp").load("data/global.php?act=connectivity6");
       </script>
    </body>
