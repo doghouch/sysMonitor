@@ -15,5 +15,5 @@ Whole View:
 https://i.dawgy.pw/i/screenshot-personal-28-05-16-21502450242150.png
 
 # Contributors
-doghouch - main code
+doghouch - main code<br>
 highcharts - ram & CPU charts
