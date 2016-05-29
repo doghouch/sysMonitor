@@ -14,41 +14,12 @@ padding-top: 100px;
 font-family: 'Roboto', sans-serif;
 }
 
-content {
-font-family: 'Montserrat', sans-serif;
-}
-
-sep {
-font-family: 'Roboto', sans-serif;
-}
-
-@media (max-width: 767px)
-.navbar-default .navbar-nav .open .dropdown-menu>li>a>a:hover {
-    color: #000;
-}
-
 .navbar {
     border: none;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-
-.dropdown-menu > li > a {
-    display: block;
-    padding: 6px 20px;
-    clear: both;
-    font-weight: normal;
-    line-height: 1.42857143;
-    white-space: nowrap;
-
-}
-
-.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
-background-color: transparent;
-font-weight: bold;
-
-}
 
 .flat {
 border-radius: 0px;
