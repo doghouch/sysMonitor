@@ -56,7 +56,7 @@
       <script type="text/javascript">
          function requestRAM() {
              $.ajax({
-                 url: 'data/graphing.php?act=ram',
+                 url: 'data/global.php?act=ram-graph',
                  success: function(point) {
                      var series = chart3.series[0],
                          shift = series.data.length > 20; // shift if the series is 
@@ -74,7 +74,7 @@
          
          function requestCPU() {
              $.ajax({
-                 url: 'data/graphing.php?act=cpu',
+                 url: 'data/global.php?act=cpu',
                  success: function(point) {
                      var series = chart4.series[0],
                          shift = series.data.length > 20; // shift if the series is 
@@ -186,17 +186,17 @@
          
          
          function getUptime() {
-         $("#uptime").load("data/stats.php?act=uptime");
+         $("#uptime").load("data/global.php?act=uptime");
          }
          function getRAM() {
-         $("#ram").load("data/stats.php?act=ram");
+         $("#ram").load("data/global.php?act=ram-percentage");
          }
          function getUser() {
-         $("#whoami").load("data/stats.php?act=whoami");
+         $("#whoami").load("data/global.php?act=whoami");
          }
          
          function getTime() {
-         $("#time").load("data/stats.php?act=time");
+         $("#time").load("data/global.php?act=time");
          }
          
          
@@ -227,7 +227,7 @@
                              var action = $(this).attr('action');
                              loading();
                              $.ajax({
-                                 url: 'data/ping.php',
+                                 url: 'data/global.php?act=ping',
                                  type: 'GET',
                                  data: {
                                      host: $('#host').val()
