@@ -1,6 +1,6 @@
 <?php
 	error_reporting(0);
-	
+	if(!empty($_GET['act'])) {
 	if ($_GET['act'] === 'connectivity4') {
 		$host    = 'ipv4.google.com';
 		$port    = '80';
@@ -176,5 +176,9 @@
 		$daydate = date("d/m/Y");
 		echo '' . date("g:i:s a") . '';
 	}
-
+	} else {
+	echo 'Invalid Method';
+	die();
+	}
+	}
 	?>
