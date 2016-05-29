@@ -1,3 +1,3 @@
 # sysMonitor - live server stats and diagnostic tools.
-# written by doghouch, charts from highcharts.com
-# sysMonitor
+By doghouch, chart API from highcharts.com.
+
