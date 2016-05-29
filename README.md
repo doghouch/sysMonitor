@@ -13,3 +13,7 @@ https://i.dawgy.pw/i/screenshot-personal-28-05-16-21522152212152.png
 
 Whole View:
 https://i.dawgy.pw/i/screenshot-personal-28-05-16-21502450242150.png
+
+# Contributors
+doghouch - main code
+highcharts - ram & CPU charts
