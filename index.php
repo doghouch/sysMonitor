@@ -11,9 +11,6 @@
          padding-top: 100px;
          font-family: 'Roboto', sans-serif;
          }
-         content {
-         font-family: 'Montserrat', sans-serif;
-         }
          sep {
          font-family: 'Roboto', sans-serif;
          }
