@@ -412,10 +412,10 @@
       </div>
       <script type="text/javascript">
          $( "#ipv4" ).click(function() {
-           $("#ipv4-rsp").load("data/connectivity4.php");
+           $("#ipv4-rsp").load("data/global.php?act=connectivity4");
          });
          
-         $("#ipv4-rsp").load("data/connectivity4.php");
+         $("#ipv4-rsp").load("data/global.php?act=connectivity6");
          
          $( "#ipv6" ).click(function() {
            $("#ipv6-rsp").load("data/global.php?act=connectivity4");
