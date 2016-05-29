@@ -2,7 +2,7 @@
    <head>
       <title>sysMonitor: main</title>
       <!-- CSS -->
-      <link href='https://fonts.googleapis.com/css?family=Montserrat|Roboto:300' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
       <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/yeti/bootstrap.min.css">
       <!-- Custom Styling -->
