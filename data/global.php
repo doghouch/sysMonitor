@@ -33,7 +33,7 @@
 			$fP = fSockOpen($host, $port, $errno, $errstr, $timeout);
 			
 			if (!$fP) {
-				return '<a id="ipv4" class="btn btn-warning btn-lg btn-block flat">No connectivity :(</a><script>console.log("RSP: ajax response success!")</script>';
+				return '<a id="ipv6" class="btn btn-warning btn-lg btn-block flat">No connectivity :(</a><script>console.log("RSP: ajax response success!")</script>';
 			}
 
 			$tA = microtime(true);
