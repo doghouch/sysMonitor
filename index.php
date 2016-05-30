@@ -50,8 +50,6 @@
       <script src="https://code.highcharts.com/highcharts.js"></script>
       <script src="https://code.highcharts.com/highcharts-more.js"></script>
       <script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/raphael/2.1.2/raphael-min.js"></script>
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/justgage/1.2.2/justgage.min.js"></script>
       <!-- Custom Javascript (if you're too lazy to add another JS file) -->
       <script type="text/javascript">
          function requestRAM() {
