@@ -50,7 +50,8 @@
 		header("Content-type: text/json");
 		$load = sys_getloadavg();
 		$x    = time() * 1000;
-		$y    = $load[0];
+                $newLoad = ($load[0] * 100);
+		$y    = $newload;
 		$ret  = array(        $x,        $y    );
 		echo json_encode($ret);
 	}
