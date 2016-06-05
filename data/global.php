@@ -181,5 +181,4 @@
 	echo 'Invalid Method';
 	die();
 	}
-	}
 	?>
